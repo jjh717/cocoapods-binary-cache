@@ -1,0 +1,418 @@
+PODS:
+  - Alamofire (5.2.1)
+  - Appboy-iOS-SDK (4.0.1):
+    - Appboy-iOS-SDK/UI (= 4.0.1)
+  - Appboy-iOS-SDK/ContentCards (4.0.1):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage (< 6, >= 5.8.2)
+  - Appboy-iOS-SDK/Core (4.0.1)
+  - Appboy-iOS-SDK/InAppMessage (4.0.1):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage (< 6, >= 5.8.2)
+  - Appboy-iOS-SDK/NewsFeed (4.0.1):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage (< 6, >= 5.8.2)
+  - Appboy-iOS-SDK/UI (4.0.1):
+    - Appboy-iOS-SDK/ContentCards
+    - Appboy-iOS-SDK/Core
+    - Appboy-iOS-SDK/InAppMessage
+    - Appboy-iOS-SDK/NewsFeed
+  - AppsFlyerFramework (6.2.4):
+    - AppsFlyerFramework/Main (= 6.2.4)
+  - AppsFlyerFramework/Main (6.2.4)
+  - CocoaLumberjack (3.7.2):
+    - CocoaLumberjack/Core (= 3.7.2)
+  - CocoaLumberjack/Core (3.7.2)
+  - CriteoEventsSDK (1.1.4)
+  - CryptoSwift (1.3.2)
+  - Differentiator (4.0.1)
+  - DKImagePickerController (3.8.1):
+    - DKImagePickerController/Camera (= 3.8.1)
+    - DKImagePickerController/ImageManager (= 3.8.1)
+  - DKImagePickerController/Camera (3.8.1)
+  - DKImagePickerController/ImageManager (3.8.1)
+  - FBSDKCoreKit (9.3.0):
+    - FBSDKCoreKit/Basics (= 9.3.0)
+    - FBSDKCoreKit/Core (= 9.3.0)
+  - FBSDKCoreKit/Basics (9.3.0)
+  - FBSDKCoreKit/Core (9.3.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (9.3.0):
+    - FBSDKLoginKit/Login (= 9.3.0)
+  - FBSDKLoginKit/Login (9.3.0):
+    - FBSDKCoreKit (~> 9.3.0)
+  - FBSDKShareKit (9.3.0):
+    - FBSDKShareKit/Share (= 9.3.0)
+  - FBSDKShareKit/Share (9.3.0):
+    - FBSDKCoreKit (~> 9.3.0)
+  - Firebase/Analytics (7.9.0):
+    - Firebase/Core
+  - Firebase/Core (7.9.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 7.9.0)
+  - Firebase/CoreOnly (7.9.0):
+    - FirebaseCore (= 7.9.0)
+  - Firebase/Crashlytics (7.9.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 7.9.0)
+  - FirebaseAnalytics (7.9.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleAppMeasurement (= 7.9.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/MethodSwizzler (~> 7.0)
+    - GoogleUtilities/Network (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+    - nanopb (~> 2.30907.0)
+  - FirebaseCore (7.9.0):
+    - FirebaseCoreDiagnostics (~> 7.4)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+  - FirebaseCoreDiagnostics (7.9.0):
+    - GoogleDataTransport (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+    - nanopb (~> 2.30907.0)
+  - FirebaseCrashlytics (7.9.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleDataTransport (~> 8.0)
+    - nanopb (~> 2.30907.0)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstallations (7.11.0):
+    - FirebaseCore (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/UserDefaults (~> 7.0)
+    - PromisesObjC (~> 1.2)
+  - GoogleAppMeasurement (7.9.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/MethodSwizzler (~> 7.0)
+    - GoogleUtilities/Network (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+    - nanopb (~> 2.30907.0)
+  - GoogleDataTransport (8.3.1):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30907.0)
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.5.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.5.2):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.5.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.5.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.5.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.5.2)"
+  - GoogleUtilities/Reachability (7.5.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.5.2):
+    - GoogleUtilities/Logger
+  - Hackle (2.1.0)
+  - HCSStarRatingView (1.4.5)
+  - InfiniteLayout (0.4.2):
+    - InfiniteLayout/Core (= 0.4.2)
+  - InfiniteLayout/CocoaProxy (0.4.2)
+  - InfiniteLayout/Core (0.4.2):
+    - InfiniteLayout/CocoaProxy
+  - KakaoSDKAuth (2.5.3):
+    - KakaoSDKCommon (= 2.5.3)
+  - KakaoSDKCommon (2.5.3):
+    - KakaoSDKCommon/Common (= 2.5.3)
+    - KakaoSDKCommon/Network (= 2.5.3)
+  - KakaoSDKCommon/Common (2.5.3)
+  - KakaoSDKCommon/Network (2.5.3):
+    - Alamofire (~> 5.1)
+    - KakaoSDKCommon/Common (= 2.5.3)
+  - KakaoSDKLink (2.5.3):
+    - KakaoSDKCommon (= 2.5.3)
+    - KakaoSDKTemplate (= 2.5.3)
+  - KakaoSDKNavi (2.5.3):
+    - KakaoSDKCommon/Common (= 2.5.3)
+  - KakaoSDKStory (2.5.3):
+    - KakaoSDKUser (= 2.5.3)
+  - KakaoSDKTalk (2.5.3):
+    - KakaoSDKTemplate (= 2.5.3)
+    - KakaoSDKUser (= 2.5.3)
+  - KakaoSDKTemplate (2.5.3):
+    - KakaoSDKCommon/Common (= 2.5.3)
+  - KakaoSDKUser (2.5.3):
+    - KakaoSDKAuth (= 2.5.3)
+  - lottie-ios (3.2.1)
+  - nanopb (2.30907.0):
+    - nanopb/decode (= 2.30907.0)
+    - nanopb/encode (= 2.30907.0)
+  - nanopb/decode (2.30907.0)
+  - nanopb/encode (2.30907.0)
+  - naveridlogin-sdk-ios (4.1.2)
+  - NMapsMap (3.10.1)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - Permission/Camera (3.1.2):
+    - Permission/Core
+  - Permission/Core (3.1.2)
+  - Permission/Photos (3.1.2):
+    - Permission/Core
+  - PromisesObjC (1.2.12)
+  - ReactorKit (2.1.0):
+    - RxSwift (~> 5.0)
+    - WeakMapTable (~> 1.1)
+  - RSBarcodes_Swift (5.1.0)
+  - RxAlamofire (5.7.0):
+    - RxAlamofire/Core (= 5.7.0)
+  - RxAlamofire/Core (5.7.0):
+    - Alamofire (~> 5.2)
+    - RxSwift (~> 5.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxFlow (2.10.0):
+    - RxCocoa (>= 5.1.1)
+    - RxSwift (>= 5.1.1)
+  - RxKakaoSDK (2.5.3):
+    - KakaoSDKNavi (= 2.5.3)
+    - KakaoSDKTemplate (= 2.5.3)
+    - RxKakaoSDKAuth (= 2.5.3)
+    - RxKakaoSDKCommon (= 2.5.3)
+    - RxKakaoSDKLink (= 2.5.3)
+    - RxKakaoSDKStory (= 2.5.3)
+    - RxKakaoSDKTalk (= 2.5.3)
+    - RxKakaoSDKUser (= 2.5.3)
+  - RxKakaoSDKAuth (2.5.3):
+    - KakaoSDKAuth (= 2.5.3)
+    - RxKakaoSDKCommon (= 2.5.3)
+  - RxKakaoSDKCommon (2.5.3):
+    - RxKakaoSDKCommon/Common (= 2.5.3)
+    - RxKakaoSDKCommon/Network (= 2.5.3)
+  - RxKakaoSDKCommon/Common (2.5.3):
+    - KakaoSDKCommon/Common (= 2.5.3)
+    - RxCocoa
+    - RxSwift
+  - RxKakaoSDKCommon/Network (2.5.3):
+    - KakaoSDKCommon/Network (= 2.5.3)
+    - RxAlamofire (~> 5.2)
+    - RxKakaoSDKCommon/Common (= 2.5.3)
+  - RxKakaoSDKLink (2.5.3):
+    - KakaoSDKLink (= 2.5.3)
+    - RxKakaoSDKCommon (= 2.5.3)
+  - RxKakaoSDKStory (2.5.3):
+    - KakaoSDKStory (= 2.5.3)
+    - RxKakaoSDKUser (= 2.5.3)
+  - RxKakaoSDKTalk (2.5.3):
+    - KakaoSDKTalk (= 2.5.3)
+    - KakaoSDKTemplate (= 2.5.3)
+    - RxKakaoSDKUser (= 2.5.3)
+  - RxKakaoSDKUser (2.5.3):
+    - KakaoSDKUser (= 2.5.3)
+    - RxKakaoSDKAuth (= 2.5.3)
+  - RxOptional (4.1.0):
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - RxViewController (1.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - SAInfiniteScrollView (1.0.7)
+  - SDWebImage (5.12.0):
+    - SDWebImage/Core (= 5.12.0)
+  - SDWebImage/Core (5.12.0)
+  - SnapKit (5.0.1)
+  - SVGKit (3.1.0):
+    - CocoaLumberjack (~> 3.0)
+  - SwiftyJSON (5.0.0)
+  - Then (2.7.0)
+  - Toast-Swift (5.0.1)
+  - WeakMapTable (1.2.0)
+
+DEPENDENCIES:
+  - Alamofire (= 5.2.1)
+  - Appboy-iOS-SDK (= 4.0.1)
+  - AppsFlyerFramework (= 6.2.4)
+  - CriteoEventsSDK (= 1.1.4)
+  - CryptoSwift (= 1.3.2)
+  - DKImagePickerController (= 3.8.1)
+  - FBSDKCoreKit (= 9.3.0)
+  - FBSDKLoginKit (= 9.3.0)
+  - FBSDKShareKit (= 9.3.0)
+  - Firebase/Analytics (= 7.9.0)
+  - Firebase/Crashlytics (= 7.9.0)
+  - Hackle (~> 2.1.0)
+  - HCSStarRatingView (= 1.4.5)
+  - InfiniteLayout (= 0.4.2)
+  - lottie-ios (= 3.2.1)
+  - naveridlogin-sdk-ios (= 4.1.2)
+  - NMapsMap (= 3.10.1)
+  - NVActivityIndicatorView (= 5.1.1)
+  - Permission/Camera (= 3.1.2)
+  - Permission/Photos (= 3.1.2)
+  - ReactorKit (= 2.1.0)
+  - RSBarcodes_Swift (= 5.1.0)
+  - RxCocoa (= 5.1.1)
+  - RxDataSources (= 4.0.1)
+  - RxFlow (= 2.10.0)
+  - RxKakaoSDK (= 2.5.3)
+  - RxOptional (= 4.1.0)
+  - RxSwift (= 5.1.1)
+  - RxViewController (= 1.0.0)
+  - SAInfiniteScrollView (= 1.0.7)
+  - SnapKit (= 5.0.1)
+  - SVGKit (from `https://github.com/SVGKit/SVGKit.git`, branch `3.x`)
+  - SwiftyJSON (= 5.0.0)
+  - Then (= 2.7.0)
+  - Toast-Swift (= 5.0.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Appboy-iOS-SDK
+    - AppsFlyerFramework
+    - CocoaLumberjack
+    - CriteoEventsSDK
+    - CryptoSwift
+    - Differentiator
+    - DKImagePickerController
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCrashlytics
+    - FirebaseInstallations
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleUtilities
+    - Hackle
+    - HCSStarRatingView
+    - InfiniteLayout
+    - KakaoSDKAuth
+    - KakaoSDKCommon
+    - KakaoSDKLink
+    - KakaoSDKNavi
+    - KakaoSDKStory
+    - KakaoSDKTalk
+    - KakaoSDKTemplate
+    - KakaoSDKUser
+    - lottie-ios
+    - nanopb
+    - naveridlogin-sdk-ios
+    - NMapsMap
+    - NVActivityIndicatorView
+    - Permission
+    - PromisesObjC
+    - ReactorKit
+    - RSBarcodes_Swift
+    - RxAlamofire
+    - RxCocoa
+    - RxDataSources
+    - RxFlow
+    - RxKakaoSDK
+    - RxKakaoSDKAuth
+    - RxKakaoSDKCommon
+    - RxKakaoSDKLink
+    - RxKakaoSDKStory
+    - RxKakaoSDKTalk
+    - RxKakaoSDKUser
+    - RxOptional
+    - RxRelay
+    - RxSwift
+    - RxViewController
+    - SAInfiniteScrollView
+    - SDWebImage
+    - SnapKit
+    - SwiftyJSON
+    - Then
+    - Toast-Swift
+    - WeakMapTable
+
+EXTERNAL SOURCES:
+  SVGKit:
+    :branch: 3.x
+    :git: https://github.com/SVGKit/SVGKit.git
+
+CHECKOUT OPTIONS:
+  SVGKit:
+    :commit: e9bc636845fb4d6d5d8e25a9bd08e75c5cf92de9
+    :git: https://github.com/SVGKit/SVGKit.git
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  Appboy-iOS-SDK: 442800b72d9dfb59c7de3dbe8953ec815847a6be
+  AppsFlyerFramework: f3f0e978cfb8e7dc09a3ab90da316f52cd9c56fe
+  CocoaLumberjack: b7e05132ff94f6ae4dfa9d5bce9141893a21d9da
+  CriteoEventsSDK: 3e35256a36366cd1e759d03cc0ed7ac5d9e4ab9f
+  CryptoSwift: 093499be1a94b0cae36e6c26b70870668cb56060
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  DKImagePickerController: 51ad6ee2ba05414bb741db54a72cd7f4fb178e34
+  FBSDKCoreKit: 0d1ae58388a458b8222f72025804cdc84eb5d0c3
+  FBSDKLoginKit: aea68df6121c5e165ccae2fabfdc83c4644ee40f
+  FBSDKShareKit: 70889c97c62f0c6b3ccb8b999e73a85f19024001
+  Firebase: d8bd6bd34b4c7ed57bfdd056c66ff5adcdde53ab
+  FirebaseAnalytics: 31b1269830dfe16687db3c60b76082c12bd6d527
+  FirebaseCore: 0798738ad1ae0fda67e17c7b9081241c431c6859
+  FirebaseCoreDiagnostics: 3d36e05da74cb8b7ce30e6594a8f201b982c725c
+  FirebaseCrashlytics: 73cfa8d24d573ed1ff648acce3900df39ca32d77
+  FirebaseInstallations: a58d4f72ec5861840b84df489f2668d970df558a
+  GoogleAppMeasurement: 120eec8803fe65a4a7475fb3d3d59a61d0e1a866
+  GoogleDataTransport: 8b0e733ea77c9218778e5a9e34ba9508b8328939
+  GoogleUtilities: 8de2a97a17e15b6b98e38e8770e2d129a57c0040
+  Hackle: 3ec2db60e3897d32be4ad9e9ea7b035c5a75552d
+  HCSStarRatingView: bff3f89314d3b5013ce826ea11897d3129ff6b8c
+  InfiniteLayout: de51cfad9ed480a3e3a0af7d28242d3257c606d9
+  KakaoSDKAuth: b1a0b9a84c21c967c4139d221edce83a7f15cdfe
+  KakaoSDKCommon: 08548932f6f570215ea038241a98157c0b3f7a8b
+  KakaoSDKLink: 4d35879b0abd90fbd0bc0de56dbb06097e9b31d3
+  KakaoSDKNavi: 31fd6ad030cf7200d546202cbe22f7a8b38eb983
+  KakaoSDKStory: 6d666f665fbe4b8453ce19959b9bb9e3bf38a5df
+  KakaoSDKTalk: 58cf9c530cc8024ae2ed3839d40acd992ecaf909
+  KakaoSDKTemplate: 5939681de6c24fd81e93bf824982e979e794f87e
+  KakaoSDKUser: 5d2de71fe070455bbaaad6a37af3eb500fbc8972
+  lottie-ios: 106e92eaf11fbed0a76590b4cdb9b5ec26123ff7
+  nanopb: 59221d7f958fb711001e6a449489542d92ae113e
+  naveridlogin-sdk-ios: cf8afccdb1793d4ecfcd5d46aa8729d8b5058c70
+  NMapsMap: 1dc27ca06eac287ce1f001a972172766dca2abe1
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  Permission: 4821359fb4d4367fb59aa16df38fbba5722ac842
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  ReactorKit: 12a93358c554bb3f167b16b14c40374fa9cd5acd
+  RSBarcodes_Swift: 297c5cec351cc94bd32c3459503db5a58a9b7dcc
+  RxAlamofire: 770e0bff75f5099251eefdb49aa86e4753e6f34d
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxFlow: 334a2f946141af3bbe23b863e33d20cca2ebdc08
+  RxKakaoSDK: 1b27067c67c8f9e803ad8589247b7a47daf46e8b
+  RxKakaoSDKAuth: 8f4609d0a1e1613f8861a219e727aa1b688d67f3
+  RxKakaoSDKCommon: 6dc3f478b35751dfd1f806f20d3bf7b1650f257c
+  RxKakaoSDKLink: fd1cdf480fd9e955e3bfb8077baf5e60476a1c7f
+  RxKakaoSDKStory: 639d8d620e8f38c5fe23e512ff575727acc6ce0b
+  RxKakaoSDKTalk: 0d999af428e477719f57a2c42059c3cb39a43675
+  RxKakaoSDKUser: 088d321b0b959b66bbb112f8db278aae2a83e6bf
+  RxOptional: b1fcd60856807a564c0215c2184b8d33e7826dc2
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxViewController: 7330a46e5c31cd680db169da4c9fc8676e975a81
+  SAInfiniteScrollView: 6a20fda926ff53255c9ebd9722950fc3270cbac2
+  SDWebImage: 4ea20cca2986adc5aacde07aa686742fd4c67a37
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SVGKit: 3c8468aab0026048532a3b27a0c81cdd939f0649
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  WeakMapTable: 05c694ce8439a7a9ebabb56187287a63c57673d6
+
+PODFILE CHECKSUM: ee9b959fea3e89f59abaa7a22070419fc47cbfbb
+
+COCOAPODS: 1.10.2
